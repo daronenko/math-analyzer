@@ -11,7 +11,8 @@ practical work at the department of iu6 of bmstu
 * [Task](#task)
 * [Images](#images)
 * [Installation](#installation)
-    * [MacOS & Linux](#macos-linux-installation)
+    * [MacOS](#macos-installation)
+    * [Linux](#linux-installation)
 
 ## Task <a name="task"></a>
 
@@ -35,13 +36,49 @@ to set the interval on request, and select the type of study using the menu.
 
 ## Installation <a name="installation"></a>
 
-### MacOS & Linux <a name="macos-linux-installation"></a>
+### MacOS <a name="macos-installation"></a>
+
+1. Install `ncurses` library:
+
+```sh
+brew install ncurses
+```
+
+2. Build project:
 
 ```sh
 git clone git@github.com:daronenko/math-analyzer.git
 cd math-analyzer/build
 cmake ..
 make
+```
+
+3. Run binary:
+
+```sh
 src/math-analyzer
 ```
 
+### Linux <a name="linux-installation"></a>
+
+1. Install `ncurses` library:
+
+```sh
+sudo apt update
+sudo apt install libncurses-dev
+```
+
+2. Build project:
+
+```sh
+git clone git@github.com:daronenko/math-analyzer.git
+cd math-analyzer/build
+cmake ..
+make
+```
+
+3. Run binary:
+
+```sh
+src/math-analyzer
+```
