@@ -9,6 +9,7 @@ practical work at the department of iu6 of bmstu
 ## Contents
 
 * [Task](#task)
+* [Images](#images)
 * [Installation](#installation)
     * [MacOS & Linux](#macos-linux-installation)
 
@@ -24,6 +25,13 @@ Write a program to study the function `y=sin(x)*x^2` on a given segment
 finding the root by the method of half division and finding the integral
 by the method of rectangles with a given accuracy `ξ`. The user should be able
 to set the interval on request, and select the type of study using the menu.
+
+## Images <a name="images"></a>
+
+<p float="left">
+    <img src="imgs/main_menu.png" width="400" />
+    <img src="imgs/settings_menu.png" width="400" />
+</p>
 
 ## Installation <a name="installation"></a>
 
